@@ -4,3 +4,39 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+
+  background-image: url('images/old-hickory-lake.jpg');
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-card {
+  width: 75%;
+
+  margin: 2rem;
+
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  &__text {
+    padding: 0 0.5rem;
+    color: lighten(#029d74, 7%);
+  }
+}
