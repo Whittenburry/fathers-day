@@ -13,7 +13,15 @@ html {
 }
 
 body {
+  min-height: 100%;
+
   margin: 0;
+
+  background-attachment: fixed;
+  background-image: url('images/old-hickory-lake.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   font-family: sans-serif;
 }

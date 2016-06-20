@@ -12,13 +12,6 @@
   justify-content: space-around;
 
   width: 100%;
-
-  background-image: url('images/old-hickory-lake.jpg');
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .image-card {
@@ -27,7 +20,7 @@
   margin: 2rem;
 
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .image {
